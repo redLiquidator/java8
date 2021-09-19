@@ -1,0 +1,16 @@
+flexbox: responsive
+
+ <!--.container>div.box-1+div.box-2+div.box-3 tab-->
+ - : dash
+ nav tag has link tags inside
+ margin auto : to the center
+ "display:flex" makes items block to inline
+
+Suppose there is only one flex item. 
+Setting it into flex:1 makes the item occupy the full line.
+
+flex or margin
+
+
+
+

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display:flex;
+    justify-content: space-between;
+    max-width:1000px;
+    margin: 0 auto; 
+}
+
+header {
+    background-color: black;
+    padding: 0  50px;
+    position:fixed;
+    width:100vw;
+}
+
+.nav {
+    align-self:stretch;
+}
+
+.nav > ul > li {
+    width:100px;
+    font-size:20px;
+    align-self: stretch;   
+    display:flex; 
+    justify-content: center;
+}
+
+.nav > ul {
+    margin:0;
+    height:100%;
+    display:flex;
+}
+
+.nav > ul > li > a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav > ul > li:hover {
+    background-color: red;
+}
+
+.title {
+    text-align: center;
+}
+
+.shoes_list>ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    flex-wrap:wrap;
+}
+
+footer {
+    height: 50px;
+    margin-top:30px;
+    background-color: black ;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

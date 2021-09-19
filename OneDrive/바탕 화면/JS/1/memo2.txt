@@ -1,0 +1,29 @@
+javascript : 
+1. internal vs external
+2. variable datatypes
+		string
+		number
+		boolean
+		null
+		undefined
+		array
+		object
+		function
+		
+	*array vs object
+	I don't have to open multiple containers.
+	array [ , , , , , , ] JS can have more than two datatypes in an array
+	JS array doesn have intarray, stringarray....etc
+	[ "I" , 1 , true ]
+	
+	 [ , , ] -> {kEY/VALUE , ...}
+	  array             object
+	  
+	  {name:"mo", name2:"men", name3:"jin"}
+		key value
+		
+	array can have object as its element inside
+	object can have array as its element inside
+	
+	
+	

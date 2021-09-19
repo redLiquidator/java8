@@ -1,0 +1,51 @@
+.container-1, .container-2, .container-3 {
+    display:flex;
+}
+
+.container-2 {
+    justify-content: space-between;
+    background-color: bisque;
+    height: 500px;
+}
+
+.container-1 div, .container-2-box, .container-3-box {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.box-1 {
+    flex:1;
+    order:2;
+}
+
+.box-2 {
+    flex:2;
+    order:3;
+}
+
+.box-3 {
+    flex:1;
+    order:1;
+}
+
+.container-2-box {
+    flex-basis:27%;
+    height: 200px;
+}
+
+.container-2 div:nth-child(2) {
+    align-self:center;
+}
+
+.container-2 div:nth-child(3){
+    align-self:flex-end;
+}
+
+.container-3-box {
+    flex-basis:12%;
+}
+
+.container-3 {
+    flex-wrap:wrap-reverse;
+    justify-content:space-between;
+}

@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(120deg, #e2c35d, #d88771);
+  font-family: "Poppins";
+}
+
+/*there is no font-color. use color */
+header {
+  font-size: 1.5rem;
+  color: white;
+}
+
+header,
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form input,
+form button {
+  border: none;
+  background-color: white;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
+
+form button {
+  background-color: white;
+  color: #d88771;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d88771;
+  color: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 30%;
+}
+
+.todo {
+  background-color: white;
+  display: flex;
+  margin: 0.5rem;
+  font-size: 1rem;
+  transition: all 1s ease;
+}
+
+.todo-item {
+  flex: 1;
+  margin: 0 0.5rem;
+}
+
+.todo button {
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+  background-color: #940d57;
+  color: white;
+}
+
+.todo .complete-btn {
+  background-color: #3ec0b4;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.fa-check,
+.fa-trash {
+  pointer-events: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  color: #940d57;
+  width: 10rem;
+  cursor: pointer;
+  padding: 0.7rem;
+  margin: 0 1rem;
+}
+
+.select-container {
+  position: relative;
+}
+
+.select-container::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #940d57;
+  color: #fff;
+  padding: 0.4rem;
+  pointer-events: none;
+}

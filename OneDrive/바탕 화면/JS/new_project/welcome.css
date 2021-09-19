@@ -1,0 +1,39 @@
+body {
+    margin:0;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    padding: 1px;
+}
+
+.container {
+    width:80%;
+    margin:auto;
+}
+
+nav {
+    background-color: #333;
+    padding:10px 0;
+}
+
+nav ul{
+    padding:0;
+    list-style:none;
+}
+nav li{
+    display:inline;
+}
+nav li a {
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#showcase {
+    text-align:center;
+}
+
+

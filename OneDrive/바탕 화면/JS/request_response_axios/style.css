@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+}
+
+header h3 {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(112, 111, 111);
+  color: #fff;
+}
+
+button:nth-child(1) {
+  background-color: cornflowerblue;
+}
+
+button:nth-child(2) {
+  background-color: rgb(23, 167, 167);
+}
+
+button:nth-child(3) {
+  background-color: rgb(209, 209, 85);
+}
+
+button:nth-child(4) {
+  background-color: red;
+}
+main {
+  padding: 0 20px;
+}
+
+.post {
+  margin: 20px 0;
+}
+
+.post-header {
+  background-color: rgba(112, 128, 144, 0.4);
+  border-radius: 10px 10px 0 0;
+  padding: 16px;
+}
+
+.post-body {
+  background-color: rgba(112, 128, 144, 0.2);
+  padding: 16px;
+  border-radius: 0 0 10px 10px;
+}

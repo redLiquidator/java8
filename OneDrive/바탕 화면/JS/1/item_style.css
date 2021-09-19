@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display:flex;
+    justify-content: space-between;
+    max-width:1000px;
+    margin: 0 auto; 
+}
+
+header {
+    background-color: black;
+    padding: 0  50px;
+    position:fixed;
+    width:100vw;
+}
+
+.nav {
+    align-self:stretch;
+}
+
+.nav > ul > li {
+    width:100px;
+    font-size:20px;
+    align-self: stretch;   
+    display:flex; 
+    justify-content: center;
+}
+
+.nav > ul {
+    margin:0;
+    height:100%;
+    display:flex;
+}
+
+.nav > ul > li > a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav > ul > li:hover {
+    background-color: red;
+}
+
+.shoes_title {
+    text-align: center;
+    font-weight:bold;
+}
+
+.shoes{
+    display:flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.info {
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+}
+
+.description {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:500px;
+    padding:20px 500px;
+}
+
+.description>.title {
+    color:red;  
+    font-weight: bold;
+}
+
+.button {
+   background-color:black;
+   color:white;
+   padding: 5px 30px;
+   border-radius: 5px;
+}
+
+footer {
+    height: 50px;
+    margin-top:30px;
+    background-color: black ;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
